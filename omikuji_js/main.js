@@ -1,9 +1,8 @@
-var human = {
-      name :'名前',
-      height :'身長',
-      weight :'体重',
+var o = {
+  a: 2,
+  m: function(){
+    return this.a+1;
+  }
 };
-alert(human);
-alert(human.name);
-alert(human.height);
-alert(human.weight);
+
+alert(o.m());
