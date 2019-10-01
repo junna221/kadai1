@@ -1,8 +1,9 @@
-var o = {
-  a: 2,
-  m: function(){
-    return this.a+1;
-  }
+for (var i=0;i<5;i++) {
+  alert(i);
 };
 
-alert(o.m());
+var n =0;
+while(n<5) {
+  alert(n);
+  n++;
+}
