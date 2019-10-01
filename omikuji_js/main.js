@@ -1,7 +1,4 @@
-function sum(x,y) {
-  var answer=x+y;
-  return(answer);
-}
-
-var sum1 = sum(1,2);
-alert(sum1);
+var arr =["Red","Green","Blue"];
+  alert(arr[0]);
+  alert(arr[1]);
+  alert(arr[2]);
