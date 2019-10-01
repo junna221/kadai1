@@ -1,9 +1,9 @@
-var human ={
-  name:'太郎',
-  height:'180',
-  weight:'60',
+var o = {
+  a:2,
+  m:function(){
+    return this.a +1;
+  }
 };
-
-alert(human.name);
-alert(height);
-alert(weight);
+ var p=Object.create(o);
+p.a=4;
+alert(p.m());
