@@ -1,5 +1,12 @@
 $(function(){
   $('p').click(function(){
-      $(this).text("クリックされました");
+      if($(this).hasClass("on")){
+         $(this).removeClass("on");
+         $("a",this).text("ここをクリックすると「on」というclassがつきます")
+      }
+      else{
+        $(this).addClass("on");
+        $("a",this).text("「on」というclassがつきました。もう一度クリックすると元に戻ります")
+      }
   });
 });
