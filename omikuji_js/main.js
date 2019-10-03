@@ -1,12 +1,12 @@
 $(function(){
-  $('p').click(function(){
-      if($(this).hasClass("on")){
-         $(this).removeClass("on");
-         $("a",this).text("ここをクリックすると「on」というclassがつきます")
-      }
-      else{
-        $(this).addClass("on");
-        $("a",this).text("「on」というclassがつきました。もう一度クリックすると元に戻ります")
-      }
-  });
+	let flg = true;
+    	$(".bg01").click(function(){
+        		if(flg){ 
+	        		flg = false;
+            		$(".shikaku").slideUp();
+        		}else{
+	       		flg = true;
+           			$(".shikaku").slideDown();
+        		};
+    	});
 });

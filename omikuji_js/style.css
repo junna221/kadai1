@@ -1,3 +1,14 @@
-.on {
-  background: #cccccc;
+.bg01{
+float:left;
+width:470px;
+height:300px;
+}
+.shikaku{
+float:right;
+width:250px;
+height:300px;
+background:#4798bd;
+display:table-cell;
+vertical-align:middle;
+color:#FFF;
 }
